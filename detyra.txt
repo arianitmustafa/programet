@@ -1,0 +1,39 @@
+
+ 1.Nga nje varg i dhen A me gjatsi N (ku N esht qift) i numrave  te plot,te krijohet 
+   vargu B me gjatsi N-1,e cila nuk ka elemente ne meste vargut A.
+   
+ 
+ 2.Shitoret DO dhe FA shesin nje produkt te caktuar P.
+   Nga ky produkt kan nja 100COP.
+   Per shitjen e ktij produkti kto shitore aplikojn strategji si ne vijim:
+   
+   shitorja DO:Nese blen me shum se dy cop aplikon 5% Zbritje.
+   SHitorja FA:Nese blen me shum se dy cop nje e merr falas (Gratis).
+    
+   Per qdo blerje qmimi cop total te produktit zbritet per sasin e bler dhe logaritet 
+   vlera per pages
+
+   Ne baz te ktyre te dhenave te shkruhet programi qe stimolon kto strategji te lloje 
+   shitje se Produktit.
+   
+ 
+ 3.Te shkruhet Klasa TEXTSORT e cila mundson rradhitjen e emrave  A-Z ose Z-A dhe ka perdorimin
+ vijim
+      
+      Ashtu qe mundson pordorimin vijues:    
+      TEXTSORT TEXTSORT=new TEXTSORT(string[] emrat);
+       TEXTSORT.shfaq();
+     
+    Per kto defino interfejsin fun ksional sorter metoden:
+        void sort();
+     
+    1.sortimi te implementohet duke perdorur klasen apstrakte.
+    2.Sortimin te importohet permes shprehjes landa.
+    3.TEXTSORT te modifikohet ashtu qe te ket mundsi te pranoj parametriin e rradhes
+    sipas parametrit te dyt si ne vijim
+
+   TEXTSORT TEXTSORT=new TEXTSORT(string[] emrat,"asc");
+       TEXTSORT.shfaq();
+   
+   TEXTSORT TEXTSORT=new TEXTSORT(string[] emrat,"dsc");
+       TEXTSORT.shfaq();
